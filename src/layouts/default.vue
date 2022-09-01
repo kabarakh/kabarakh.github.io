@@ -1,16 +1,18 @@
 <template>
   <header class="container">
-    <img alt="Banner for Kabarakh" class="banner" src="@/assets/banner.jpg" />
+    <router-link to="/">
+      <img alt="Banner for Kabarakh" class="banner" src="@/assets/banner.jpg"/>
+    </router-link>
 
-      <div id="nav">
-        <router-link to="/">Home</router-link>
-        <router-link to="/projects">My projects</router-link>
-        <router-link to="/technologies">Technolgies</router-link>
-        <router-link to="/tools">Some tools</router-link>
-      </div>
+    <div id="nav">
+      <router-link to="/">Home</router-link>
+      <router-link to="/projects">My projects</router-link>
+      <router-link to="/technologies">Technolgies</router-link>
+      <router-link to="/tools">Some tools</router-link>
+    </div>
   </header>
 
-  <slot />
+  <slot/>
 
   <footer>
     <div id="nav">
