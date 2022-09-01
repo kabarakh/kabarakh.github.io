@@ -11,6 +11,12 @@
   </header>
 
   <slot />
+
+  <footer>
+    <div id="nav">
+      <router-link to="/imprint">Imprint</router-link>
+    </div>
+  </footer>
 </template>
 
 <script setup lang="ts">

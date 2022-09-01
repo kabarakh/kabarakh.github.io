@@ -1,0 +1,25 @@
+body {
+  background: linear-gradient(-33deg, #404040, #202020);
+  color: #ccc;
+  font-family: sans-serif;
+}
+
+header img {
+  box-shadow: 0 0 10px #000;
+}
+
+a {
+  &,
+  &:hover,
+  &:visited,
+  &:focus {
+    color: #d00;
+
+    &[target="_blank"]::after {
+      content: " ";
+      width: 20px;
+      height: 1rem;
+      display: inline-block;
+    }
+  }
+}

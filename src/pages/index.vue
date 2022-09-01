@@ -5,7 +5,7 @@
   <p>I've been a "real" developer since 2009. Before that, I did some scripting for mIRC and tried
     to figure out how real programming with data storage and structure really works. Then I got my abitur
     and learned to be a glorious "Fachinformatiker Anwendungsentwicklung" - which is a mouthful for "I know
-    how to do this, but I don't have a diploma or similar.</p>
+    how to do this, but I don't have a diploma or similar".</p>
   <p>Web technologies are what really is my bread and butter - I often tell people that when I try out
     something new and I read the docs and try it in a small project, that it immediately feels as if I were
     within my comfort zone.</p>
