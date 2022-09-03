@@ -46,8 +46,8 @@
         <ul>
           <li>AngularJS: Doesn't exist anymore, because AngularJS is a dead technology.</li>
           <li>
-            Angular: Sadly not working, because I didn't properly update the project to newer
-            versions of Angular.
+            Angular:
+            <router-link target="_blank" to="/diceRollerV2/">DiceRollerV2</router-link>
           </li>
           <li>
             Vue:
