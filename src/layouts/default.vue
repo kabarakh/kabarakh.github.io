@@ -12,9 +12,11 @@
     </div>
   </header>
 
-  <slot/>
+  <main class="container">
+    <slot/>
+  </main>
 
-  <footer>
+  <footer class="container">
     <div id="nav">
       <router-link to="/imprint">Imprint</router-link>
     </div>

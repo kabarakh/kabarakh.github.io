@@ -1,8 +1,16 @@
+@import 'bootstrap/scss/bootstrap';
+
+:root {
+  --bs-body-color: #ccc;
+}
+
 html {
   background: linear-gradient(-33deg, #404040, #202020);
-  color: #ccc;
-  font-family: sans-serif;
   min-height: 100%;
+}
+
+body {
+  background: transparent;
 }
 
 header {
@@ -20,10 +28,14 @@ a {
   &:focus {
     color: #d00;
 
-    &[target="_blank"]::before {
-      content: "⧉";
-      padding-right: .3rem;
-      display: inline-block;
+    &[target="_blank"] {
+      white-space: nowrap;
+
+      &::before {
+        content: "⧉";
+        padding-right: .3rem;
+        display: inline-block;
+      }
     }
   }
 }
