@@ -1,0 +1,46 @@
+@import 'bootstrap/scss/bootstrap';
+
+:root {
+  --bs-body-color: #ccc;
+}
+
+#nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+html {
+  background: linear-gradient(-33deg, #404040, #202020);
+  min-height: 100%;
+}
+
+body {
+  background: transparent;
+}
+
+header {
+  img {
+    margin: auto;
+    box-shadow: 0 0 10px #000;
+    display: block;
+  }
+}
+
+a {
+  &,
+  &:hover,
+  &:visited,
+  &:focus {
+    color: #d00;
+
+    &[target="_blank"] {
+      white-space: nowrap;
+
+      &::before {
+        content: "⧉";
+        padding-right: .3rem;
+        display: inline-block;
+      }
+    }
+  }
+}
