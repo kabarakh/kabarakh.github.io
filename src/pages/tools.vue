@@ -1,9 +1,9 @@
 <template>
 Tools
 phpStorm/webStorm
-  Fork!!!
+Fork!!!
 prettier
 husky
-iles?
+iles? gridsome?
 codeception
 </template>
