@@ -1,9 +1,10 @@
 <template>
-Tools
-phpStorm/webStorm
-Fork!!!
-prettier
-husky
-iles? gridsome?
-codeception
+  <section>
+    Tools
+    phpStorm/webStorm
+    Fork!!!
+    prettier
+    husky
+    codeception
+  </section>
 </template>
