@@ -1,7 +1,3 @@
-<script setup lang="ts">
-import TwoCol from '~/components/two-col.vue';
-</script>
-
 <script lang="ts">
 export default {
   metaInfo: {
