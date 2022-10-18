@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import Layout from '~/layouts/Default.vue';
 import TwoCol from '~/components/two-col.vue';
 </script>
 

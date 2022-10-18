@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import Layout from '~/layouts/Default.vue';
-import TwoCol from '~/components/two-col.vue';
 import LADXRSpoiler from '../content/projects/LADXRSpoiler.vue';
 import DiceRoller from '../content/projects/DiceRoller.vue';
 import InitiativeTool from '../content/projects/InitiativeTool.vue';

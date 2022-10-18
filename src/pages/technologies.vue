@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import Layout from '~/layouts/Default.vue';
 import Php from '../content/technologies/Php.vue';
 import TsJs from '../content/technologies/TsJs.vue';
 </script>

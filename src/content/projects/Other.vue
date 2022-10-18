@@ -1,7 +1,3 @@
-<script setup lang="ts">
-import TwoCol from '~/components/two-col.vue';
-</script>
-
 <template>
   <section>
     <h2>Other work (e.g. for punkt.de)</h2>

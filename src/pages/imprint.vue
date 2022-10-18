@@ -1,7 +1,3 @@
-<script setup lang="ts">
-import Layout from '~/layouts/Default.vue'
-</script>
-
 <script lang="ts">
 export default {
   metaInfo: {
